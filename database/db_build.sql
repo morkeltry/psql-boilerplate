@@ -1,0 +1,10 @@
+BEGIN;
+  DROP TABLE IF EXISTS a, b, c, d
+  CASCADE;
+
+CREATE TABLE a
+(
+  name PRIMARY KEY NOT NULL
+);
+
+COMMIT;
