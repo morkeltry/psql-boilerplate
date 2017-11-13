@@ -1,0 +1,10 @@
+{
+  "name": "psql-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "dbbuild": "node ./database/db_build.js"
+  },
+  "dependencies": {
+    "env2": "^2.2.2"
+  }
+}
