@@ -30,7 +30,8 @@ chmod 775 ../..
 ```
 and so on.
 
-Made the use OK? Let's see where we are at...
+
+Made the user OK? Let's see where we are at...
 ```
 psql
 \du
@@ -48,7 +49,7 @@ Remember that SQL requires singles quotes.
 
 Now you could set:
 `env DATABASE_URL=postgresql://username:password@hostname/dbname`
-but, why not place it in ./env ?
+but, why not place it in .env ?
 In .env, remember to `export` and don't add spaces around the `=`.
 
 (Port 5432 is the default, so no need to specify it)
